@@ -58,6 +58,6 @@ class mathsTest extends TestCase
 
     public function testRisky()
     {
-        echo "Risky";
+        $this->markTestIncomplete("Risky");
     }
 }
